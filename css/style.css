@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: #707080;
+
+  width: 100%;
+
+  float: left;
+
+  padding: 15px 0px;
+}
+
+.header-top {
+}
+
+.logo {
+  width: 20%;
+
+  float: left;
+}
+
+.logo img {
+  display: block;
+}
+img {
+  width: 55%;
+  height: 20%;
+}
+
+.menu-bar {
+  width: 70%;
+
+  float: left;
+}
+
+nav {
+  text-align: start;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 15px 15px;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+
+  color: #fff;
+
+  font-size: 20px;
+}
+nav ul li a:hover {
+  color: black;
+}
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: rgb(112, 112, 128);
+  opacity: 95%;
+  width: 243px;
+  margin: 1px 0px;
+  padding-left: 35px;
+  padding-right: 120px;
+  border-radius: 4px;
+}
+.more {
+  width: 185px;
+}
+nav ul li:hover ul {
+  display: block;
+  transition: 500ms;
+}
+
+nav ul li ul a {
+  text-align: start;
+  text-decoration: none;
+  color: #f9f9f9;
+  font-size: 18px;
+}
+nav ul li ul :hover a {
+  color: black;
+  border-bottom: #87509c;
+}
+
+.social-icon {
+  width: 10%;
+  float: right;
+  margin-top: 5px;
+}
+
+.social-icon ul {
+  display: inline;
+}
+.social-icon ul li {
+  list-style: none;
+  margin: 0 0px;
+  display: inline;
+}
+
+.fab.fa-youtube {
+  background-color: ;
+  color: #d60000;
+  font-size: 40px;
+  padding: 5px 12px;
+}
